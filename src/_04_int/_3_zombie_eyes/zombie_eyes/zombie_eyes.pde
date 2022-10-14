@@ -7,7 +7,10 @@ void setup() {
 }
 void draw() {
   noStroke();
-  fill(#FA0303);
-  ellipse(175, 198, 120, 120);
-  ellipse(350, 220, 130, 100);
+  fill(255, 8, 8);
+  ellipse(182, 108, 120, 75);
+  ellipse(318, 108, 120, 75);
+  fill(mouseX, 1, 1);
+  ellipse(182, 108, 20, 20);
+  ellipse(318, 108, 20, 20);
 }
